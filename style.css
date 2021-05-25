@@ -163,3 +163,27 @@ body {
     font-family: fontAwesome;
     font-size: 24px;
 }
+
+body.light .toggle {
+    background: #2a2b2f;
+    color: #fff;
+}
+
+body.light .toggle::before {
+    content: '\f186';
+}
+
+body.light {
+    background: #ebf5fc;
+}
+
+body.light .container .card .box{
+    background: #ebf5fc;
+    border: none;
+}
+
+body.light .container .card .box .content h3,
+body.light .container .card .box .content h4,
+body.light .container .card .box .content ul li {
+    color: #2a2b2f;
+}
