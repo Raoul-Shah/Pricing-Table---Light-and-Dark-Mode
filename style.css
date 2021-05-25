@@ -102,4 +102,44 @@ body {
 
 .container .card .box .content ul li {
     list-style: none;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.container .card .box .content ul li .fa-check {
+    color: #0f0;
+}
+
+.container .card .box .content ul li .fa-times {
+    color: #f00;
+}
+
+.container .card .box .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #f00;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.container .card:nth-child(1) .box .content a,
+.container .card:nth-child(1) .box .content .icon {
+    background: #2196f3;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card:nth-child(2) .box .content a,
+.container .card:nth-child(2) .box .content .icon {
+    background: #e91e63;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card:nth-child(3) .box .content a,
+.container .card:nth-child(3) .box .content .icon {
+    background: #97dc47;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
